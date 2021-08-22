@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-discrete-uniform-ctor",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Discrete uniform distribution constructor.",
   "license": "Apache-2.0",
   "author": {
