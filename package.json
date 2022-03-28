@@ -51,6 +51,7 @@
     "@stdlib/stats-base-dists-discrete-uniform-skewness": "^0.0.x",
     "@stdlib/stats-base-dists-discrete-uniform-stdev": "^0.0.x",
     "@stdlib/stats-base-dists-discrete-uniform-variance": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-define-property": "^0.0.x"
