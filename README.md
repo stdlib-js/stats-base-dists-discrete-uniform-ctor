@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.DiscreteUniform;
+})();
 })();
 </script>
 ```
@@ -300,6 +302,7 @@ y = discreteUniform.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var discreteUniform = new DiscreteUniform( -2, 2 );
 
@@ -315,6 +318,7 @@ var s2 = discreteUniform.variance;
 var y = discreteUniform.cdf( 2.5 );
 // returns 1.0
 
+})();
 })();
 </script>
 </body>
