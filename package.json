@@ -51,7 +51,7 @@
     "@stdlib/stats-base-dists-discrete-uniform-skewness": "^0.0.8",
     "@stdlib/stats-base-dists-discrete-uniform-stdev": "^0.0.7",
     "@stdlib/stats-base-dists-discrete-uniform-variance": "^0.0.7",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.7",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
     "@stdlib/utils-define-property": "^0.0.9"
