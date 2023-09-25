@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import DiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/tags). For example,
+
+```javascript
 import DiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@v0.1.0-esm/index.mjs';
 ```
 
@@ -286,7 +291,7 @@ y = discreteUniform.quantile( 1.9 );
 <body>
 <script type="module">
 
-import DiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@v0.1.0-esm/index.mjs';
+import DiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@esm/index.mjs';
 
 var discreteUniform = new DiscreteUniform( -2, 2 );
 
