@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import DiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@deno/mod.js';
+import DiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@v0.1.0-deno/mod.js';
 ```
 
 #### DiscreteUniform( \[a, b] )
@@ -281,7 +281,7 @@ y = discreteUniform.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import DiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@deno/mod.js';
+import DiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-ctor@v0.1.0-deno/mod.js';
 
 var discreteUniform = new DiscreteUniform( -2, 2 );
 
