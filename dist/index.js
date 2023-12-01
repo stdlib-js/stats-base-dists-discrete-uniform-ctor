@@ -1,5 +1,29 @@
-"use strict";var g=function(e,t){return function(){return t||e((t={exports:{}}).exports,t),t.exports}};var p=g(function(L,m){
-var f=require('@stdlib/utils-define-property/dist'),u=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),s=require('@stdlib/utils-define-nonenumerable-read-only-accessor/dist'),a=require('@stdlib/assert-is-integer/dist').isPrimitive,h=require('@stdlib/stats-base-dists-discrete-uniform-entropy/dist'),c=require('@stdlib/stats-base-dists-discrete-uniform-kurtosis/dist'),l=require('@stdlib/stats-base-dists-discrete-uniform-mean/dist'),d=require('@stdlib/stats-base-dists-discrete-uniform-median/dist'),b=require('@stdlib/stats-base-dists-discrete-uniform-skewness/dist'),v=require('@stdlib/stats-base-dists-discrete-uniform-stdev/dist'),q=require('@stdlib/stats-base-dists-discrete-uniform-variance/dist'),y=require('@stdlib/stats-base-dists-discrete-uniform-cdf/dist'),w=require('@stdlib/stats-base-dists-discrete-uniform-logcdf/dist'),M=require('@stdlib/stats-base-dists-discrete-uniform-logpmf/dist'),E=require('@stdlib/stats-base-dists-discrete-uniform-mgf/dist'),U=require('@stdlib/stats-base-dists-discrete-uniform-pmf/dist'),V=require('@stdlib/stats-base-dists-discrete-uniform-quantile/dist'),n=require('@stdlib/error-tools-fmtprodmsg/dist');function F(e){return y(e,this.a,this.b)}function R(e){return w(e,this.a,this.b)}function k(e){return M(e,this.a,this.b)}function x(e){return E(e,this.a,this.b)}function P(e){return U(e,this.a,this.b)}function T(e){return V(e,this.a,this.b)}function r(){var e,t;if(!(this instanceof r))return arguments.length===0?new r:new r(arguments[0],arguments[1]);if(arguments.length){if(e=arguments[0],t=arguments[1],!a(e))throw new TypeError(n('0yb8s',e));if(!a(t))throw new TypeError(n('0yb8t',t));if(e>t)throw new RangeError(n('0ybDW',e,t))}else e=0,t=1;return f(this,"a",{configurable:!1,enumerable:!0,get:function(){return e},set:function(i){if(!a(i))throw new TypeError(n('0yb8v',i));if(i>t)throw new RangeError(n('0yb8w',t,i));e=i}}),f(this,"b",{configurable:!1,enumerable:!0,get:function(){return t},set:function(i){if(!a(i))throw new TypeError(n('0yb8v',i));if(e>i)throw new RangeError(n('0yb8x',e,i));t=i}}),this;}s(r.prototype,"entropy",function(){return h(this.a,this.b)});s(r.prototype,"kurtosis",function(){return c(this.a,this.b)});s(r.prototype,"mean",function(){return l(this.a,this.b)});s(r.prototype,"median",function(){return d(this.a,this.b)});s(r.prototype,"skewness",function(){return b(this.a,this.b)});s(r.prototype,"stdev",function(){return v(this.a,this.b)});s(r.prototype,"variance",function(){return q(this.a,this.b)});u(r.prototype,"cdf",F);u(r.prototype,"logcdf",R);u(r.prototype,"logpmf",k);u(r.prototype,"mgf",x);u(r.prototype,"pmf",P);u(r.prototype,"quantile",T);m.exports=r
-});var D=p();module.exports=D;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Discrete uniform distribution constructor.
+*
+* @module @stdlib/stats-base-dists-discrete-uniform-ctor
+*
+* @example
+* var DiscreteUniform = require( '@stdlib/stats-base-dists-discrete-uniform-ctor' );
+*
+* var discreteUniform = new DiscreteUniform( 0, 8 );
+*
+* var y = discreteUniform.cdf( 0.8 );
+* // returns ~0.111
+*
+* var mu = discreteUniform.mean;
+* // returns 4.0
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
