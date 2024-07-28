@@ -1,10 +1,33 @@
 {
   "name": "@stdlib/stats-base-dists-discrete-uniform-ctor",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Discrete uniform distribution constructor.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +36,52 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/assert-is-integer": "^0.2.2",
+    "@stdlib/stats-base-dists-discrete-uniform-cdf": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-entropy": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-kurtosis": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-logcdf": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-logpmf": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-mean": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-median": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-mgf": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-pmf": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-quantile": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-skewness": "^0.2.2",
+    "@stdlib/stats-base-dists-discrete-uniform-stdev": "^0.2.1",
+    "@stdlib/stats-base-dists-discrete-uniform-variance": "^0.1.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.3",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-define-property": "^0.2.4",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+  },
+  "devDependencies": {
+    "@stdlib/assert-has-own-property": "^0.2.2",
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/math-base-assert-is-nan": "^0.2.2",
+    "@stdlib/math-base-special-round": "^0.3.0",
+    "@stdlib/random-base-randu": "^0.2.1",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
