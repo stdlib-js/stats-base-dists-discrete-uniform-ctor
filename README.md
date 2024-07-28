@@ -355,6 +355,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
@@ -370,8 +375,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-discrete-uniform-ctor.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-discrete-uniform-ctor
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-discrete-uniform-ctor/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-discrete-uniform-ctor?branch=main
@@ -400,6 +405,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-discrete-uniform-ctor/main/LICENSE
 
 [discrete-uniform-distribution]: https://en.wikipedia.org/wiki/Discrete_uniform_distribution
 
