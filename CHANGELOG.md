@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-13)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`570b077`](https://github.com/stdlib-js/stdlib/commit/570b077ce3411575a1c45bc04c3da1b1fc827db3) - **bench:** refactor to use string interpolation in `stats/base/dists/discrete-uniform` [(#10345)](https://github.com/stdlib-js/stdlib/pull/10345) _(by Vishal Gaikwad, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Vishal Gaikwad
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
