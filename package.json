@@ -103,7 +103,8 @@
     "properties",
     "props",
     "discrete",
-    "uniform"
+    "uniform",
+    "univariate"
   ],
   "funding": {
     "type": "opencollective",
